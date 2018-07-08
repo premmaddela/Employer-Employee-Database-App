@@ -1,0 +1,78 @@
+
+*{
+  box-sizing: border-box;
+}
+.row {
+   padding: 30px;
+}
+.col {
+    float: left;
+    padding: 10px;
+    //height: 300px;
+}
+.col-left {
+  width: 65%;
+} 
+
+.col-right {
+  width: 35%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item .heading{
+  font-weight: bold;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=phone], select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
+}
+
