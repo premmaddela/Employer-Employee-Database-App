@@ -8,7 +8,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "autoprefixer": "7.1.6",
+    "autoprefixer": "10.4.21",
     "babel-eslint": "7.2.3",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react-app": "^3.1.1",
